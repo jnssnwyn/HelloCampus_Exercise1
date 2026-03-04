@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Department Text -->
+    <TextView
+        android:id="@+id/tvDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Science Department"
+        android:textSize="22sp"
+        android:padding="16dp" />
+
+
+    <Button
+        android:id="@+id/btnChangeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Chairwoman" />
+
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30sp"
+        android:paddingTop="40dp" />
+
+
+    <Button
+        android:id="@+id/btnIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increase Counter" />
+
+</LinearLayout>
