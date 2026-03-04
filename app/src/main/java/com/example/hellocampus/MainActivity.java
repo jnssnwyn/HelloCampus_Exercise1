@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         changeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                departmentText.setText("Dr. Name of Department Chairwoman");
+                departmentText.setText("Dr. Angie Ceniza Canillo");
             }
         });
 
